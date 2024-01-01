@@ -2,13 +2,13 @@ var config = {
   geojson: "https://absgeoviz.alwaysdata.net/pg2geojson.php",
   title: "Daftar Perusahaan Corridor",
   layerName: "Trees",
-  hoverProperty: "NAMA_PERUSAHAAN",
-  sortProperty: "ID",
+  hoverProperty: "nama_perusahaan",
+  sortProperty: "id",
   sortOrder: "desc"
 };
 
 var properties = [{
-  value: "ID",
+  value: "id",
   label: "ID",
   table: {
     visible: false,
@@ -21,7 +21,7 @@ var properties = [{
 },
 
 {
-  value: "NAMA_PERUSAHAAN",
+  value: "nama_perusahaan",
   label: "NAMA",
   table: {
     visible: true,
@@ -32,7 +32,7 @@ var properties = [{
   }
 },
 {
-  value: "GAR",
+  value: "gar",
   label: "GAR",
   table: {
     visible: true,
@@ -49,8 +49,8 @@ var properties = [{
 },
 
 {
-  value: "PHOTO",
-  label: "Photos",
+  value: "photo",
+  label: "Photo",
   table: {
     visible: true,
     sortable: true,

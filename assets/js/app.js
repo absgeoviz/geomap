@@ -1,5 +1,5 @@
 var config = {
-  geojson: "https://absgeoviz.alwaysdata.net/pg2geojson.php",
+  geojson: "https://absgeoviz.alwaysdata.net/perusahaan.php",
   title: "Daftar Perusahaan Corridor",
   layerName: "Trees",
   hoverProperty: "nama_perusahaan",

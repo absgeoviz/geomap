@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "ID": 1, "NAMA_PERUSAHAAN": "PT ABC", "LATITUDE": -2.6391376, "LONGITUDE": 115.8241731, "GAR": 4800, "PHOTO": null }, "geometry": { "type": "Point", "coordinates": [ 115.8241731, -2.6391376 ] } },
+{ "type": "Feature", "properties": { "ID": 2, "NAMA_PERUSAHAAN": "CV XYZ", "LATITUDE": -3.189112109, "LONGITUDE": 115.0934096, "GAR": 5200, "PHOTO": null }, "geometry": { "type": "Point", "coordinates": [ 115.0934096, -3.189112109 ] } },
+{ "type": "Feature", "properties": { "ID": 3, "NAMA_PERUSAHAAN": "CV OPQ", "LATITUDE": -3.50828682, "LONGITUDE": 115.5058712, "GAR": 5700, "PHOTO": null }, "geometry": { "type": "Point", "coordinates": [ 115.5058712, -3.50828682 ] } },
+{ "type": "Feature", "properties": { "ID": 4, "NAMA_PERUSAHAAN": "PT DEF", "LATITUDE": -3.769945034, "LONGITUDE": 115.0572399, "GAR": 4900, "PHOTO": null }, "geometry": { "type": "Point", "coordinates": [ 115.0572399, -3.769945034 ] } }
+]
+}

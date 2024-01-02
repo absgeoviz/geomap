@@ -1,7 +1,8 @@
 var config = {
-  geojson: "https://absgeoviz.alwaysdata.net/perusahaan.php",
+//  geojson: "https://absgeoviz.alwaysdata.net/perusahaan.php",
+  geojson: "./data/corridor.geojson",
   title: "Daftar Perusahaan Corridor",
-  layerName: "Trees",
+  layerName: "Perusahaan",
   hoverProperty: "nama_perusahaan",
   sortProperty: "id",
   sortOrder: "desc"
@@ -22,7 +23,7 @@ var properties = [{
 
 {
   value: "nama_perusahaan",
-  label: "NAMA",
+  label: "NAMA PERUSAHAAN",
   table: {
     visible: true,
     sortable: true
@@ -50,7 +51,7 @@ var properties = [{
 
 {
   value: "photo",
-  label: "Photo",
+  label: "PHOTO",
   table: {
     visible: true,
     sortable: true,

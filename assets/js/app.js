@@ -1,6 +1,6 @@
 var config = {
   //geojson: "https://absgeoviz.alwaysdata.net/perusahaan.php",
-  geojson: "./data/corridor.geojson",
+  geojson: "./data/ROW_geo.geojson",
   title: "Kayan Hidropower Nusantara",
   layerName: "Perusahaan",
   hoverProperty: "nama_perusahaan",

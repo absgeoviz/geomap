@@ -1,6 +1,6 @@
 var config = {
   //geojson: "https://absgeoviz.alwaysdata.net/perusahaan.php",
-  geojson: "./data/Inventarisasi.geojson",
+  geojson: "./data/Inventarisasi_geo.geojson",
   title: "Kayan Hidropower Nusantara",
   layerName: "Inventarisasi",
   hoverProperty: "nama_pemilik",

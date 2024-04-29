@@ -1,9 +1,9 @@
 var config = {
   //geojson: "https://absgeoviz.alwaysdata.net/perusahaan.php",
-  geojson: "./data/corridor.geojson",
+  geojson: "./data/Inventarisasi.geojson",
   title: "Kayan Hidropower Nusantara",
-  layerName: "Perusahaan",
-  hoverProperty: "nama_perusahaan",
+  layerName: "Inventarisasi",
+  hoverProperty: "nama_pemilik",
   sortProperty: "id",
   sortOrder: "desc"
 };
@@ -22,8 +22,8 @@ var properties = [{
 },
 
 {
-  value: "nama_perusahaan",
-  label: "NAMA PERUSAHAAN",
+  value: "nama_pemilik",
+  label: "NAMA PEMILIK",
   table: {
     visible: true,
     sortable: true
@@ -33,8 +33,8 @@ var properties = [{
   }
 },
 {
-  value: "gar",
-  label: "GAR",
+  value: "luas_m2",
+  label: "LUAS (m2)",
   table: {
     visible: true,
     sortable: true
@@ -50,8 +50,8 @@ var properties = [{
 },
 
 {
-  value: "photo",
-  label: "PHOTO",
+  value: "jenis_kepemilikan",
+  label: "TIPE HAK",
   table: {
     visible: true,
     sortable: true,
@@ -189,6 +189,7 @@ var usgsImagery = L.layerGroup([L.tileLayer("http://basemap.nationalmap.gov/arcg
   transparent: true,
   attribution: "Aerial Imagery courtesy USGS"
 })]);
+var atrBpn = L.wm
 var highlightLayer = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.circleMarker(latlng, {

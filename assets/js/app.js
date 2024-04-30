@@ -189,7 +189,7 @@ var usgsImagery = L.layerGroup([L.tileLayer("http://basemap.nationalmap.gov/arcg
   transparent: true,
   attribution: "Aerial Imagery courtesy USGS"
 })]);
-var khLayer = L.tileLayer('https://geoportal.menlhk.go.id/server/rest/services/SIGAP_Interaktif/Kawasan_Hutan/MapServer/tile/{z}/{x}/{y}', {
+var khLayer = L.tileLayer('https://geoportal.menlhk.go.id/server/rest/services/SIGAP_Interaktif/Kawasan_Hutan/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 18,
     attribution: '&copy; <a href="https://geoportal.menlhk.go.id">Sigap KLHK</a> contributors, &copy'
 })

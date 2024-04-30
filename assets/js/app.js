@@ -189,7 +189,7 @@ var usgsImagery = L.layerGroup([L.tileLayer("http://basemap.nationalmap.gov/arcg
   transparent: true,
   attribution: "Aerial Imagery courtesy USGS"
 })]);
-var atrBpn = L.wm
+
 var highlightLayer = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.circleMarker(latlng, {
@@ -308,7 +308,8 @@ var baseLayers = {
   "Aerial Imagery": googleSatellite
 };
 var overlayLayers = {
-  "<span id='layer-name'>GeoJSON Layer</span>": featureLayer
+  "<span id='layer-name'>GeoJSON Layer</span>": featureLayer,
+  "Carto": cartoLight
 };
 var layerControl = L.control.layers(baseLayers, overlayLayers, {
   collapsed: isCollapsed

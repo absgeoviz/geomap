@@ -312,7 +312,7 @@ var baseLayers = {
 };
 var overlayLayers = {
   "<span id='layer-name'>GeoJSON Layer</span>": featureLayer,
-  "Carto": khLayer
+  "Kawasan Hutan": khLayer
 };
 var layerControl = L.control.layers(baseLayers, overlayLayers, {
   collapsed: isCollapsed
